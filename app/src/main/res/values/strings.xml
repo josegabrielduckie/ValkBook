@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Socialing</string>
+    <string name="btnLoginEntrar">Entrar</string>
+    <string name="btnLoginOlvidado">Registrate</string>
+    <string name="txtLoginUser">Introduzca su user o email</string>
+    <string name="txtLoginPass">Introduzca su password</string>
+    <string name="mostrarPass">Mostrar password</string>
+    <string name="ocultarPass">Ocultar password</string>
+    <string name="recordLogin">Recordar</string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Abrir Menu</string>
+    <string name="navigation_drawer_close">Cerrar Menu</string>
+    <string name="nav_header_title">Mi Perfil</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

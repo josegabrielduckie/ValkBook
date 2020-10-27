@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo"
+    android:orientation="vertical"
+    tools:context=".SignUpActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/activity_horizontal_margin">
+
+        <EditText
+            android:id="@+id/_nickName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/cuadrosTexto"
+            android:ems="10"
+            android:hint="Introduzca su NickName"
+            android:inputType="textEmailAddress" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/activity_horizontal_margin">
+
+        <EditText
+            android:id="@+id/_nameUser"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/cuadrosTexto"
+            android:ems="10"
+            android:hint="Introduzca su nombre"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/activity_horizontal_margin">
+
+        <EditText
+            android:id="@+id/_apellidosUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/cuadrosTexto"
+            android:ems="10"
+            android:hint="Introduzca sus apellidos"
+            android:inputType="textPersonName"
+           />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/activity_horizontal_margin">
+
+        <EditText
+            android:id="@+id/_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/cuadrosTexto"
+            android:ems="10"
+            android:hint="Introduzca sus email"
+            android:inputType="textEmailAddress" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/activity_horizontal_margin">
+    <EditText
+        android:id="@+id/_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cuadrosTexto"
+        android:ems="10"
+        android:hint="Introduzca su password"
+        android:inputType="textPassword" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/activity_horizontal_margin">
+
+        <EditText
+            android:id="@+id/_comfirmar_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/cuadrosTexto"
+            android:ems="10"
+            android:hint="Repita su password"
+            android:inputType="textPassword" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/activity_horizontal_margin">
+
+        <TextView
+            android:id="@+id/lbl_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="toca para subir una imagen" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/avatar"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/avatar"
+            android:visibility="visible"
+            tools:src="@drawable/avatar" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/btnEnviarRegistro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/botones"
+            android:text="Confirmar" />
+    </LinearLayout>
+
+</LinearLayout>

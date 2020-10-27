@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#3E943B</color>
+    <color name="fondo">#9CFF99</color>
+    <color name="cuadrosTexto">#72E06F</color>
+    <color name="botones">#942C65</color>
+    <color name="teal_200">#E070AE</color>
+    <color name="teal_700">#EBC350</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
